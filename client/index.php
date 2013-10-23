@@ -1,4 +1,9 @@
 <?php include 'config.php'; ?>
+<?php
+if(!isset($_GET['session'])){
+	$_GET['session'] = time();
+}
+?>
 <html>
 <head>
 <style>
@@ -294,5 +299,15 @@ img {
 <img id='qr' src='http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=http%3A//<?php echo $clienturl; ?>/controller.php%3Fsession%3D<?php echo $_GET['session']; ?>&chld=H|0' />
 
 <canvas id="game"></canvas>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29149745-2', '65.181.120.53');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

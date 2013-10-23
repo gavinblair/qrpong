@@ -1,0 +1,8 @@
+2013-10-23 18:32:27,682 CRIT Supervisor running as root (no user in config file)
+2013-10-23 18:32:27,723 INFO RPC interface 'supervisor' initialized
+2013-10-23 18:32:27,724 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2013-10-23 18:32:27,724 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2013-10-23 18:32:27,731 INFO daemonizing the supervisord process
+2013-10-23 18:32:27,732 INFO supervisord started with pid 1924
+2013-10-23 18:32:28,742 INFO spawned: 'Ratchet' with pid 1925
+2013-10-23 18:32:29,745 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

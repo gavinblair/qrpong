@@ -1,0 +1,174 @@
+New connection! (40)
+Connection 40 sending message "new screen?1" to 0 other connections
+new screen registered, id=1
+New connection! (88)
+Connection 88 sending message "new controller?1" to 1 other connection
+new controller registered, screen=1
+Connection 88 has disconnected
+New connection! (93)
+Connection 93 sending message "new controller?1" to 1 other connection
+new controller registered, screen=1
+Connection 93 has disconnected
+Connection 40 has disconnected
+New connection! (98)
+Connection 98 sending message "new screen?1" to 0 other connections
+new screen registered, id=1
+Connection 98 has disconnected
+New connection! (103)
+Connection 103 sending message "new controller?1" to 0 other connections
+new controller registered, screen=1
+Connection 103 has disconnected
+New connection! (108)
+Connection 108 sending message "new screen?1" to 0 other connections
+new screen registered, id=1
+Connection 108 has disconnected
+New connection! (113)
+Connection 113 sending message "new controller?1" to 0 other connections
+new controller registered, screen=1
+Connection 113 has disconnected
+New connection! (118)
+Connection 118 sending message "new controller?1" to 0 other connections
+new controller registered, screen=1
+Connection 118 has disconnected
+New connection! (123)
+Connection 123 sending message "new controller?1" to 0 other connections
+new controller registered, screen=1
+Connection 123 has disconnected
+New connection! (128)
+Connection 128 sending message "new screen?1382564003" to 0 other connections
+new screen registered, id=1382564003
+New connection! (133)
+Connection 133 sending message "new controller?1382564003" to 1 other connection
+new controller registered, screen=1382564003
+Connection 133 has disconnected
+New connection! (138)
+Connection 138 sending message "new screen?1382564474" to 1 other connection
+new screen registered, id=1382564474
+Connection 138 has disconnected
+New connection! (143)
+Connection 143 sending message "new screen?1382564485" to 1 other connection
+new screen registered, id=1382564485
+Connection 128 has disconnected
+New connection! (148)
+Connection 148 sending message "new controller?1382564485" to 1 other connection
+new controller registered, screen=1382564485
+Connection 148 has disconnected
+New connection! (153)
+Connection 153 sending message "new controller?1382564485" to 1 other connection
+new controller registered, screen=1382564485
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "up?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 153 sending message "down?1382564485" to 1 other connection
+Connection 153 sending message "leggo?1382564485" to 1 other connection
+Connection 143 has disconnected
+New connection! (158)
+Connection 158 sending message "new screen?1382564670" to 1 other connection
+new screen registered, id=1382564670
+Connection 153 has disconnected
+New connection! (163)
+Connection 163 sending message "new controller?1382564670" to 1 other connection
+new controller registered, screen=1382564670
+Connection 163 has disconnected
+New connection! (168)
+Connection 168 sending message "new controller?1382564670" to 1 other connection
+new controller registered, screen=1382564670
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "up?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "up?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "up?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "up?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "up?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "up?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 168 sending message "down?1382564670" to 1 other connection
+Connection 168 sending message "leggo?1382564670" to 1 other connection
+Connection 158 has disconnected
+Connection 168 has disconnected
