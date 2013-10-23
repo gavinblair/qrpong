@@ -297,8 +297,8 @@ img {
 </head>
 <body>
 <img id='qr' src='http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=http%3A//<?php echo $clienturl; ?>/controller.php%3Fsession%3D<?php echo $_GET['session']; ?>&chld=H|0' />
-
 <canvas id="game"></canvas>
+<a href="https://github.com/gavinblair/qrpong"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png" alt="Fork me on GitHub"></a>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
