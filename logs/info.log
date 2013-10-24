@@ -172,3 +172,34 @@ Connection 168 sending message "down?1382564670" to 1 other connection
 Connection 168 sending message "leggo?1382564670" to 1 other connection
 Connection 158 has disconnected
 Connection 168 has disconnected
+New connection! (173)
+Connection 173 sending message "new screen?1382565246" to 0 other connections
+new screen registered, id=1382565246
+Connection 173 has disconnected
+New connection! (178)
+Connection 178 sending message "new screen?1382565248" to 0 other connections
+new screen registered, id=1382565248
+Connection 178 has disconnected
+New connection! (183)
+Connection 183 sending message "new screen?1382565250" to 0 other connections
+new screen registered, id=1382565250
+Connection 183 has disconnected
+New connection! (188)
+Connection 188 sending message "new screen?1382565250" to 0 other connections
+new screen registered, id=1382565250
+New connection! (193)
+Connection 193 sending message "new screen?1382573609" to 1 other connection
+new screen registered, id=1382573609
+Connection 193 has disconnected
+New connection! (198)
+Connection 198 sending message "new screen?1382573716" to 1 other connection
+new screen registered, id=1382573716
+Connection 198 has disconnected
+New connection! (203)
+Connection 203 sending message "new screen?1382573773" to 1 other connection
+new screen registered, id=1382573773
+Connection 203 has disconnected
+New connection! (208)
+Connection 208 sending message "new screen?1382573786" to 1 other connection
+new screen registered, id=1382573786
+Connection 208 has disconnected

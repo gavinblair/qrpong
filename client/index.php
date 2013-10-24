@@ -14,7 +14,7 @@ if(!isset($_GET['session'])){
 	width: 100%;
 	height: 100%;
 }
-img {
+#qr {
 	position: absolute;
 	top: 50%; left: 50%;
 	margin-left: -100px;
