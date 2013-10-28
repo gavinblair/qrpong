@@ -3,6 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <style>
+	html, body {margin: 0; padding: 0; overflow: hidden}
 	* {
 		-webkit-touch-callout: none;
 		-webkit-user-select: none;
@@ -11,24 +12,454 @@
 		-ms-user-select: none;
 		user-select: none;
 	}
-	div {
-		position: absolute;
+
+	body{ 
+		background:#999; 
+		padding: 0;
+		zoom: 1.1;
+		position: fixed;
 		width: 100%;
-		height: 50%;
-		left: 0;
+		margin-top: -40px;
 	}
-	#up {
-		top: 0;
-		background: green;
-	}
-	#down{
-		top: 50%;
-		background: blue;
-	}
+
+.pad{
+	width:550px;
+	height:220px;
+	background:#cccccc;
+	position:relative;
+	left: 50%;
+	margin-left:-275px;
+	border-radius:3px;
+	border:3px solid #dadada;
+	box-shadow:0 0  25px #666;
+}
+.topBox{
+	background: #C6C6C6;
+	width: 22px;
+	height: 6px;
+	left: 144px;
+	top: -3px;
+	border: 1px solid #8C8C8C;
+	position: absolute;
+}
+.blackPlane{
+	width:530px;
+	height:180px;
+	background:#282828;
+	border-radius:4px;
+	border-top:2px solid #919191;
+	position:relative;
+	top: 28px;
+	left: 10px;
+	
+}
+
+.greyFirst{
+	background:#999;
+	top: 0px;
+	left:184px;
+	width:143px;
+	height:22px;
+	border:1px solid #8c8c8c;
+	border-top:none;
+	position:relative;
+	border-radius:0 0 6px 6px;
+}
+.greySecond{
+	background:#999;
+	left:184px;
+	width:143px;
+	height:22px;
+	border:1px solid #8c8c8c;
+	position:relative;
+	border-radius:6px 6px 6px 6px;
+	
+}
+.greyLast{
+	background:#999;
+	top: 9px;
+	left:184px;
+	width:143px;
+	height:14px;
+	border:1px solid #8c8c8c;
+	border-bottom:none;
+	position:relative;
+	border-radius:6px 6px 0 0;
+	
+}
+.first{
+	top: 12px;
+}
+.second{
+	top: 24px;
+}
+
+.centerPanel{
+	background:#c6c6c6;
+	border-radius:6px 6px 6px 6px;
+	width:143px;
+	height:44px;
+	left:184px;
+	top: 36px;
+	border:1px solid #8c8c8c;
+	position:relative;
+	
+	
+	
+	
+}
+.centerPanelInside{
+	border-radius: 1px 2px 2px 2px;
+	background: #CCC;
+	width: 134px;
+	height: 37px;
+	left: 186px;
+	top: -5px;
+	border-top: 2px solid rgba(151, 151, 151, 0.6);
+	border-right: 3px solid #777;
+	box-shadow: 2px -2px 1px rgba(167, 166, 166, 1);
+	position: relative;
+	border-left: 3px solid #D7D7D7;
+	
+	
+	
+}
+
+.centerBtn{
+	width: 36px;
+	height: 14px;
+	background: #222;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 5;
+	border-top: 1px solid rgba(113,113,113, 1);
+	border-right: 1px solid rgba(113,113,113, 1);
+}
+
+.btnShadow{
+	width: 33px;
+	height: 8px;
+	border-radius: 0px 6px 0 0;
+	position: absolute;
+	top: 1px;
+	left: 3px;
+	z-index: 5;
+	border-top: 1px solid rgba(68, 68, 68, 1);
+	border-right: 1px solid rgba(140, 140, 140, 1);
+	box-shadow: 1px -2px 1px rgba(167, 166, 166, 0.6);
+}
+.select{
+	top: 127px;
+	left: 205px;
+}
+.start{
+	top: 127px;
+	left: 271px;
+}
+
+.greySquare{
+	background:#ccc;
+	height:55px;
+	border:1px solid #6f6f6f;
+	width:55px;
+	position: absolute;
+	top: 102px;
+	border-radius:4px;
+}
+
+.a{
+	left: 356px;
+}
+.b{
+	left: 428px;
+}
+
+.btn{
+	background: -moz-linear-gradient(100% 100% 70deg, #fe494a, #a40000);
+	background: -webkit-gradient(linear, right top, left bottom, from(#a40000), to(#fe494a));
+	border-radius: 40px 40px 40px 40px;
+	height: 45px;
+	width: 45px;
+	border:1px solid #3e4040;
+    margin-left: 4px;
+	margin-top: 5px;
+    
+}
+.btnLight{
+	border-radius: 40px 40px 40px 40px;
+	height: 42px;
+	width: 44px;
+	border-top: 1px solid #e55555;
+	border-bottom: 2px solid #ED3132;
+	border-right: 1px solid rgba(249, 129, 130, 0.9);
+	box-shadow:1px 1px 5px #333;
+}
+
+.crossV{
+	background: #CCC;
+	width: 45px;
+	border-radius: 6px;
+	height: 100px;
+	position: absolute;
+	border: 1px solid #6F6F6F;
+	top: 57px;
+	left: 64px;
+	z-index: 3;
+}
+
+.crossO{
+	background: #CCC;
+	width: 100px;
+	border-radius: 6px;
+	height: 40px;
+	position: absolute;
+	top: 90px;
+	left: 37px;
+	z-index: 4;
+}
+
+.crossTop{
+	background: #222;
+	width: 30px;
+	height: 31px;
+	position: absolute;
+	border-radius: 3px 3px 0 0;
+	top: 62px;
+	left: 72px;
+	z-index: 5;
+	border-right:1px solid #a9a9a9;
+	border-top:1px solid #3d3d3d;
+	border-left:1px solid #7c7c7c;
+	box-shadow: 1px 1px 5px #333;
+}
+.crossRight{
+	background: #222;
+	width: 29px;
+	height: 30px;
+	position: absolute;
+	border-radius: 0 3px 3px 0;
+	top: 93px;
+	left: 102px;
+	z-index: 5;
+	border-right:1px solid #3d3d3d;
+	border-top:1px solid #a9a9a9;
+	border-bottom:1px solid #7c7c7c;
+	box-shadow: 1px 1px 5px #333;
+}
+.crossBottom{
+	background: #222;
+	width: 30px;
+	height: 31px;
+	position: absolute;
+	border-radius: 0 0 3px 3px;
+	top: 124px;
+	left: 72px;
+	z-index: 5;
+	border-bottom:1px solid #3d3d3d;
+	border-right:1px solid #a9a9a9;
+	border-left:1px solid #7c7c7c;
+	box-shadow: 1px 1px 5px #333;
+}
+
+.crossLeft{
+	background: #222;
+	width: 29px;
+	height: 30px;
+	position: absolute;
+	border-radius: 3px 0 0 3px;
+	top: 93px;
+	left: 44px;
+	z-index: 5;
+	border-left:1px solid #3d3d3d;
+	border-top:1px solid #7c7c7c;
+	border-bottom:1px solid #7c7c7c;
+	
+	box-shadow: 1px 1px 5px #333;
+}
+
+.crossCenter{
+	position: absolute;
+	z-index: 6;
+	top: 93px;
+	left: 73px;
+	width: 30px;
+	height: 32px;
+	background: #222;
+}
+
+
+.arrowUp{
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 12px solid rgba(64,64,64, 0.3);
+	margin-top: 10px;
+	margin-left: 3px;
+}
+.arrowSquareUp{
+	background: rgba(64,64,64, 0.3);
+	width: 14px;
+	height: 6px;
+	margin-left: 8px;
+}
+.arrowRight{
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-left: 12px solid rgba(64, 64, 64, 0.3);
+	margin-top: 4px;
+	margin-left: 14px;
+}
+.arrowSquareRight{
+	background: rgba(64, 64, 64, 0.3);
+	width: 6px;
+	height: 14px;
+	margin-left: 8px;
+	margin-top: -19px;
+}
+.arrowBottom{
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 12px solid rgba(64, 64, 64, 0.3);
+	margin-top: 11px;
+	margin-left: 3px;
+}
+.arrowSquareBottom{
+	background: rgba(64, 64, 64, 0.3);
+	width: 14px;
+	height: 6px;
+	margin-left: 8px;
+	margin-top: -18px;
+}
+.arrowLeft{
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	border-right: 12px solid rgba(64, 64, 64, 0.3);
+	margin-top: 4px;
+	margin-left: 4px;
+}
+.arrowSquareLeft{
+	background: rgba(64, 64, 64, 0.3);
+	width: 6px;
+	height: 14px;
+	margin-left: 16px;
+	margin-top: -19px;
+}
+
+.crossCircle{
+	background: -moz-linear-gradient(100% 100% 70deg, #252525, #404040);
+	background: -webkit-gradient(linear, right top, left bottom, from(#404040), to(#252525));
+	border-radius: 40px 40px 40px 40px;
+	height: 18px;
+	width: 18px;
+	border: 1px solid #262626;
+	margin-left: 6px;
+	margin-top: 7px;
+	
+}
+
+
+.aBtn{
+	font: 22px 'NesControllerRegular';
+	color: #A20000;
+	left: 44px;
+	top: 2px;
+	position: relative;	
+}
+.bBtn{
+	font: 22px 'NesControllerRegular';
+	color: #A20000;
+	left: 44px;
+	top: 2px;
+	position: relative;	
+}
+
+.selectText{
+	font: 18px 'NesControllerRegular';
+	color: #A20000;
+	position: absolute;
+	left: 198px;
+	top: 73px;
+}
+.startText{
+	font: 18px 'NesControllerRegular';
+	color: #A20000;
+	position: absolute;
+	left: 269px;
+	top: 73px;
+	
+}
+.nintendo{
+	font: 18px 'PretendoRegular';
+	color: #A20000;
+	position: absolute;
+	left: 364px;
+	top: 36px;
+	letter-spacing: 1px;
+	
+}
+.copy{
+	position: absolute;
+	left: 464px;
+	top: 33px;
+	width: 7px;
+	height: 7px;
+	border: 1px solid #A20000;
+	border-radius: 20px;
+}
+.r{
+	font: 5px 'PretendoRegular';
+	color: #A20000;
+	position: absolute;
+	left: 466px;
+	top: 35px;
+		
+}
+
+@font-face {
+    font-family: 'NesControllerRegular';
+    src: url('http://www.gianmarcotoso.com/prova/dada/font/nes-webfont.eot');
+    src: url('http://www.gianmarcotoso.com/prova/dada/font/nes-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.gianmarcotoso.com/prova/dada/font/nes-webfont.woff') format('woff'),
+         url('http://www.gianmarcotoso.com/prova/dada/font/nes-webfont.ttf') format('truetype'),
+         url('http://www.gianmarcotoso.com/prova/dada/font/nes-webfont.svg#NesControllerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PretendoRegular';
+    src: url('http://www.davidetesta.com/font/pretendo-webfont.eot');
+    src: url('http://www.davidetesta.com/font/pretendo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://www.davidetesta.com/font/pretendo-webfont.woff') format('woff'),
+         url('http://www.davidetesta.com/font/pretendo-webfont.ttf') format('truetype'),
+         url('http://www.davidetesta.com/font/pretendo-webfont.svg#PretendoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
 </style>
 <script>
+ 
+    window.onresize = function() {
+      document.body.width =(window.innerWidth);
+      document.body.height =(window.innerHeight);
+    }
 	var conn;
 	window.onload = function(){
+		window.onresize();
+		document.body.addEventListener('touchmove', function(event) {
+	      console.log(event.source);
+	      //if (event.source == document.body)
+	        event.preventDefault();
+	    }, false);
 		conn = new WebSocket('<?php echo $server; ?>');
 		conn.onopen = function(e) {
 		    console.log("Connection established!");
@@ -40,14 +471,8 @@
 		};
 
 	};
-	function up(){
-		conn.send('up?<?php echo $_GET['session']; ?>');
-	}
-	function down(){
-		conn.send('down?<?php echo $_GET['session']; ?>');
-	}
-	function leggo(){
-		conn.send('leggo?<?php echo $_GET['session']; ?>');
+	function sendkey(key){
+		conn.send(key+'?<?php echo $_GET['session']; ?>');
 	}
 </script>
 
@@ -55,7 +480,63 @@
 <body>
 <?php echo $_GET['session']; ?>
 
-<div id='up' ontouchstart='up()' ontouchend='leggo()'></div>
-<div id='down' ontouchstart='down()' ontouchend='leggo()'></div>
+<article>
+	<div class="pad">
+		<div class="topBox">
+		</div>
+		<div class="blackPlane">
+			<span class="nintendo">Gavtendo</span>
+			<div class="copy"></div>
+			<span class="r">G</span>
+			<div class="greyFirst"></div>
+			<div class="greySecond first"></div>
+			<div class="greySecond second"></div>
+			<span class="selectText" ontouchstart='sendkey("select")' ontouchend='sendkey("leggoselect")'>Select</span>
+			<span class="startText" ontouchstart='sendkey("start")' ontouchend='sendkey("leggostart")'>Start</span>
+			<div class="centerBtn select">
+				<div class="btnShadow"></div>
+			</div>
+			<div class="centerBtn start">
+				<div class="btnShadow"></div>
+			</div>
+			<div class="centerPanel"></div>
+			<div class="centerPanelInside"></div>
+			<div class="greyLast"></div>
+			<div class="greySquare a" ontouchstart='sendkey("b")' ontouchend='sendkey("leggob")'>
+				<div class="btn">
+					<div class="btnLight"></div>
+				</div>
+				<span class="bBtn">b</span>
+			</div>
+			<div class="greySquare b" ontouchstart='sendkey("a")' ontouchend='sendkey("leggoa")'>
+				<div class="btn">
+					<div class="btnLight"></div>
+				</div>
+				<span class="aBtn">a</span>
+			</div>
+			<div class="crossV"></div>
+			<div class="crossTop" ontouchstart='sendkey("up")' ontouchend='sendkey("leggoup")'>
+				<div class="arrowUp"></div>
+				<div class="arrowSquareUp"></div>
+			</div>
+			<div class="crossRight" ontouchstart='sendkey("right")' ontouchend='sendkey("leggoright")'>
+				<div class="arrowRight"></div>
+				<div class="arrowSquareRight"></div>
+			</div>
+			<div class="crossBottom" ontouchstart='sendkey("down")' ontouchend='sendkey("leggodown")'>
+				<div class="arrowBottom"></div>
+				<div class="arrowSquareBottom"></div>	
+			</div>
+			<div class="crossLeft" ontouchstart='sendkey("left")' ontouchend='sendkey("leggoleft")'>
+				<div class="arrowLeft"></div>
+				<div class="arrowSquareLeft"></div>
+			</div>
+			<div class="crossCenter">
+				<div class="crossCircle"></div>
+			</div>
+			<div class="crossO"></div>
+		</div>
+	</div>
+</article>
 </body>
 </html>
